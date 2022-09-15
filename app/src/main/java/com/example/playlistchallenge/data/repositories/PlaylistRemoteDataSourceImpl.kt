@@ -1,8 +1,10 @@
-package com.example.playlistchallenge
+package com.example.playlistchallenge.data.repositories
 
-class PlaylistData {
+import com.example.playlistchallenge.R
+import com.example.playlistchallenge.data.entities.Music
 
-    fun loadItems(): List<Music> = listOf(
+class PlaylistRemoteDataSourceImpl {
+    fun loadItems() = listOf(
         Music(
             image = R.drawable.ateez_treasure,
             name = "Treasure",
@@ -62,6 +64,6 @@ class PlaylistData {
             name = "Lose",
             artist = "WONHO",
             duration = "3:08"
-        ),
+        )
     )
 }

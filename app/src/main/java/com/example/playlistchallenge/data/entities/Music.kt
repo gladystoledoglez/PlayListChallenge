@@ -1,4 +1,4 @@
-package com.example.playlistchallenge
+package com.example.playlistchallenge.data.entities
 
 import androidx.annotation.DrawableRes
 
